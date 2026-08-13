@@ -1,0 +1,48 @@
+{
+  "type": "unified",
+  "version": "1.20.6",
+  "namespaces": [
+    {
+      "name": "混淆的",
+      "color": "#581C87"
+    },
+    {
+      "name": "Searge",
+      "color": "#B91C1C"
+    },
+    {
+      "name": "Spigot",
+      "color": "#CA8A04"
+    },
+    {
+      "name": "Mojang",
+      "color": "#4D7C0F"
+    },
+    {
+      "name": "Yarn",
+      "color": "#626262"
+    },
+    {
+      "name": "Intermediary",
+      "color": "#0369A1"
+    }
+  ],
+  "files": {
+    "classes": "classes.csv",
+    "fields": "fields.csv",
+    "methods": "methods.csv",
+    "params": "params.csv",
+    "srg": "joined.srg",
+    "exc": "joined.exc"
+  },
+  "stats": {
+    "classes": 7716,
+    "fields": 35898,
+    "methods": 52264,
+    "params": 307026,
+    "srg_lines": 88085,
+    "exc_lines": 28343,
+    "desc_fail": 2,
+    "page_errors": 0
+  }
+}
