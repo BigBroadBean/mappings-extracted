@@ -1,0 +1,52 @@
+{
+  "type": "unified",
+  "version": "1.8.9",
+  "source": "MCP官方数据(非网站, takenaka无此版本)",
+  "namespaces": [
+    {
+      "name": "混淆的",
+      "color": "#581C87"
+    },
+    {
+      "name": "Searge",
+      "color": "#B91C1C"
+    },
+    {
+      "name": "Spigot",
+      "color": "#CA8A04",
+      "note": "该列存放 MCP 可读名(1.8.9 无 CraftBukkit 数据)"
+    },
+    {
+      "name": "MCP",
+      "color": null,
+      "note": "参数可读名来源(仅 params.csv 使用)"
+    }
+  ],
+  "files": {
+    "classes": "classes.csv",
+    "fields": "fields.csv",
+    "methods": "methods.csv",
+    "params": "params.csv",
+    "srg": "joined.srg",
+    "exc": "joined.exc"
+  },
+  "notes": [
+    "fields/methods CSV 末尾额外带 MCP side/desc 列(其他版本无)",
+    "构造函数仅来自 joined.exc 的 <init> 条目(joined.srg 不含构造函数)",
+    "joined.srg/joined.exc 为官方 MCP 文件原样拷贝(含 PK 行)",
+    "Spigot 列实际存放 MCP 可读名"
+  ],
+  "stats": {
+    "classes": 2541,
+    "fields": 8917,
+    "methods": 18372,
+    "params": 67194,
+    "srg_lines": 27884,
+    "exc_lines": 2838,
+    "desc_fail": 0,
+    "page_errors": 0,
+    "constructors": 1946,
+    "fields_with_name": 6585,
+    "methods_with_name": 13687
+  }
+}
