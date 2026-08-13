@@ -1,0 +1,36 @@
+{
+  "type": "unified",
+  "version": "1.13.2",
+  "namespaces": [
+    {
+      "name": "混淆的",
+      "color": "#581C87"
+    },
+    {
+      "name": "Searge",
+      "color": "#B91C1C"
+    },
+    {
+      "name": "Spigot",
+      "color": "#CA8A04"
+    }
+  ],
+  "files": {
+    "classes": "classes.csv",
+    "fields": "fields.csv",
+    "methods": "methods.csv",
+    "params": "params.csv",
+    "srg": "joined.srg",
+    "exc": "joined.exc"
+  },
+  "stats": {
+    "classes": 3874,
+    "fields": 13788,
+    "methods": 26015,
+    "params": 73320,
+    "srg_lines": 39615,
+    "exc_lines": 0,
+    "desc_fail": 0,
+    "page_errors": 0
+  }
+}
