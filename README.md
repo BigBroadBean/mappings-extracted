@@ -4,14 +4,9 @@
 (`D:\mappings-gh-pages\mappings-gh-pages`) 提取的 Minecraft Java 版各版本反混淆数据。
 其中 **1.8.9** 不在该网站收录范围内, 由官方 MCP 数据转换而来(见下文说明)。
 
-> **📖 全链路文档**：[`全链路文档.md`](全链路文档.md) —— 本数据如何流转到下游
-> （生成器 gen_maps.py → MCCombatStatusJni.dll → 注入/上报 → 连点器消费），
-> 含命名体系、真机验证矩阵、关键边界与全部踩坑记录。
->
-> **下游生态**：
-> - 生成器/DLL 源码：`D:\VibeCoding\MCCombatStatusJni\`（上游项目）
-> - 全链路工具包（含文档）：`D:\VibeCoding\MCCombatStatusToolkit\`
-> - 消费端（连点器）：`D:\VibeCoding\AutoClicker-main\`
+> **📖 技术文档**：[`全链路文档.md`](全链路文档.md) —— 本项目**纯数据视角**的
+> 全链路技术文档：数据来源与提取转换流程、描述符重建原理、校验记录、
+> 踩过的坑（11 条）、实机验证记录（命名空间 vs 真实运行时）与提取统计。
 
 - **版本范围**: 1.8.8 ~ 1.21.11,共 54 个版本
   (53 个来自网站 + 1.8.9 来自官方 MCP 数据)
